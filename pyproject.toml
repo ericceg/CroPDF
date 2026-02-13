@@ -1,0 +1,43 @@
+[project]
+name = "cropdf"
+version = "1.0.0"
+description = "Lightweight GUI tool to visually crop PDFs and save as vector PDF. Perfect for extracting figures from textbooks."
+authors = [{ name = "Eric Ceglie" }]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+keywords = [
+    "pdf", "crop", "pdf-cropper", "pdf-crop", "extract", "figure", "image",
+    "typst", "latex", "textbook", "gui", "vector", "lossless"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: MacOS X",
+    "Environment :: Win32 (MS Windows)",
+    "Environment :: X11 Applications",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Text Processing :: General",
+]
+dependencies = [
+    "PyMuPDF>=1.20",
+]
+
+[project.urls]
+Homepage = "https://github.com/ericceg/CroPDF"
+Repository = "https://github.com/ericceg/CroPDF"
+Issues = "https://github.com/ericceg/CroPDF/issues"
+
+[project.scripts]
+cropdf = "cropdf:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["cropdf"]
