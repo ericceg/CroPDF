@@ -1,7 +1,6 @@
 # CroPDF
 
 
-> **Lightweight PDF cropper that keeps vector quality** — extract figures from textbooks for Typst, LaTeX, or any document.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://python.org)
@@ -13,6 +12,8 @@
    <img src="assets/CroPDF.svg" alt="CroPDF" width="250">
 </p>
 
+
+**Lightweight PDF cropper that keeps vector quality.** Extract figures from textbooks for Typst, LaTeX, or any other document.
 
 
 ## Why I Made This
