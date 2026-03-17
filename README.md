@@ -1,5 +1,8 @@
 # CroPDF
 
+> There is now a native MacOS version of CroPDF built with SwiftUI! 
+Check it out under https://github.com/ericceg/CroPDF-MacOS.
+
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -143,4 +146,4 @@ The output is a proper PDF — scalable, searchable, perfect for embedding.
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+MIT. See [LICENSE](LICENSE).
